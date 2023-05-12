@@ -24,10 +24,7 @@ let package = Package(
          .target(
             name: "material-components-ios",
             path: "components",
-            exclude: [
-                "FBShimmering-Prefix.pch"
-            ],
-            publicHeadersPath: "../FBShimmering"
+           
         )
     ]
 )
