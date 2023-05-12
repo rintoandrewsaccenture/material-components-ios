@@ -23,7 +23,7 @@ let package = Package(
         
          .target(
             name: "material-components-ios",
-            path: "components",
+            path: "components"
            
         )
     ]
