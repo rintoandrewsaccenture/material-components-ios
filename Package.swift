@@ -180,7 +180,7 @@ let package = Package(
         .target(name: "Ripple",
                 dependencies:[
                     .target(name:"AnimationTiming"),
-                    .target(name:"AvailabilityT"),
+                    //.target(name:"AvailabilityT"),
                     .target(name:"Color"),
                     .target(name:"Math")
             ],
