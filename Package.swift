@@ -22,7 +22,7 @@ let package = Package(
         
         
      .target(
-            name: "Shimmer",
+            name: "material-components-ios",
             dependencies: []),
     ]
 )
