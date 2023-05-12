@@ -21,10 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         
         
-         .target(
-            name: "material-components-ios",
-            path: "components"
-           
-        )
+     .target(
+            name: "Shimmer",
+            dependencies: []),
     ]
 )
